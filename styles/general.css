@@ -1,0 +1,16 @@
+p{
+    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+body{
+    font-family: 'Roboto', 'Arial'; /* "inheritance",all element inside the body get this font */
+    margin: 0;
+    padding-top: 80px; /* to avoid header covering the content */
+    padding-left: 100px; /* to avoid sidebar covering the content */
+    padding-right: 24px;
+    background-color: rgb(248,248,248);
+    padding-bottom: 50px;/*scrollbar*/
+    /* color:red; "css specificity",this give color to entire element inside the body but we can see some ellement have different colour(video-author)
+    this is why because we have already specified the color which has high priority than this */
+}
